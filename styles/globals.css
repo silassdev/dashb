@@ -1,0 +1,48 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f2f5; /* Light gray background */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.d-chart {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Set the desired width */
+  height: 200px;
+}
+
+.center-icon {
+  position: absolute;
+  top: 56%;
+  left: 51%;
+  transform: translate(-50%, -94%);
+  font-size: 1rem;  
+  pointer-events: none;  
+  z-index: 1; 
+}
