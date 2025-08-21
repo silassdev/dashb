@@ -1,4 +1,3 @@
-// pages/dashboard.js
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import HyperTextCard from '../components/HyperTextCard';
@@ -18,7 +17,7 @@ const Dashboard = () => {
   const graphData = {
     labels: ['0', '25', '50', '75', '100'],
     values: [12, 22, 35, 45, 55],
-    numStudents: [10, 20, 30, 40, 50],
+    numStudents: [20, 20, 30, 40, 50],
     percentile: modalData.percentile
   };
 
